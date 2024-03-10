@@ -9,7 +9,7 @@
 WhatsApp chat analyzer powered by Python Machine Learning , utilizing Exploratory Data Analysis and Streamlit framework .This is a ML Project utilizing EDA to Analyze your WhatsApp chat.<br/>
 
 <br/>__My LinkedIn__: https://www.linkedin.com/in/m%C3%A0h%C3%A9sh-k%C3%A0rr%C3%AD-645aa9291/ <br/>
-<br/>__Deployed At__: <br/>
+<br/>__Deployed At__: https://whatsappchatanalysis-dh76.onrender.com <br/>
 
 <h3>A Glimpse of the web app:</h3>
 • The UI of the web page is made through Streamlit :
