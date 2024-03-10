@@ -7,6 +7,13 @@ import seaborn as sns
 st.sidebar.title("Whatsapp Chat Analyzer")
 
 uploaded_file=st.sidebar.file_uploader("choose a file")
+if uploaded_file is None:
+    st.subheader("Step 1:")
+    st.write("Open Whatsapp, Open a chat and Click on Export Chat - Without Media")
+    st.subheader("Step 2:")
+    st.write("Upload the File here")
+    st.subheader("Step 3:")
+    st.write("A new Option will appear(Analyze wrt).Select a Contact and Click on Show Analysis Button To Analyze Thier Chat ")
 if uploaded_file is not None:
     bytes_data=uploaded_file.getvalue()
     data=bytes_data.decode("utf-8")
